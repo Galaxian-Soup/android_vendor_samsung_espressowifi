@@ -24,7 +24,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/espressowifi/proprietary/bin/geomagneticd:system/bin/geomagneticd \
     vendor/samsung/espressowifi/proprietary/bin/gps.cer:system/bin/gps.cer \
     vendor/samsung/espressowifi/proprietary/bin/gpsd:system/bin/gpsd \
+    vendor/samsung/espressowifi/proprietary/bin/lpmkey:system/bin/lpmkey \
     vendor/samsung/espressowifi/proprietary/bin/orientationd:system/bin/orientationd \
+    vendor/samsung/espressowifi/proprietary/bin/playlpm:system/bin/playlpm \
     vendor/samsung/espressowifi/proprietary/bin/smc.ini:system/bin/smc.ini \
     vendor/samsung/espressowifi/proprietary/bin/smc_pa.ift:system/bin/smc_pa.ift \
     vendor/samsung/espressowifi/proprietary/bin/smc_pa_ctrl:system/bin/smc_pa_ctrl \
@@ -43,6 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/espressowifi/proprietary/lib/libOMX.TI.DUCATI1.VIDEO.H264E.so:system/lib/libOMX.TI.DUCATI1.VIDEO.H264E.so \
     vendor/samsung/espressowifi/proprietary/lib/libOMX.TI.DUCATI1.VIDEO.MPEG4E.so:system/lib/libOMX.TI.DUCATI1.VIDEO.MPEG4E.so \
     vendor/samsung/espressowifi/proprietary/lib/libOMX_Core.so:system/lib/libOMX_Core.so \
+    vendor/samsung/espressowifi/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
     vendor/samsung/espressowifi/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/espressowifi/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/samsung/espressowifi/proprietary/lib/libtiutils.so:system/lib/libtiutils.so \
@@ -50,6 +53,19 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/espressowifi/proprietary/lib/hw/gps.omap4.so:system/lib/hw/gps.omap4.so \
     vendor/samsung/espressowifi/proprietary/lib/hw/lights.omap4.so:system/lib/hw/lights.omap4.so \
     vendor/samsung/espressowifi/proprietary/lib/hw/sensors.omap4.so:system/lib/hw/sensors.omap4.so \
+    vendor/samsung/espressowifi/proprietary/media/battery_batteryerror.qmg:system/media/battery_batteryerror.qmg \
+    vendor/samsung/espressowifi/proprietary/media/battery_charging_0.qmg:system/media/battery_charging_0.qmg \
+    vendor/samsung/espressowifi/proprietary/media/battery_charging_5.qmg:system/media/battery_charging_5.qmg \
+    vendor/samsung/espressowifi/proprietary/media/battery_charging_20.qmg:system/media/battery_charging_20.qmg \
+    vendor/samsung/espressowifi/proprietary/media/battery_charging_40.qmg:system/media/battery_charging_40.qmg \
+    vendor/samsung/espressowifi/proprietary/media/battery_charging_60.qmg:system/media/battery_charging_60.qmg \
+    vendor/samsung/espressowifi/proprietary/media/battery_charging_80.qmg:system/media/battery_charging_80.qmg \
+    vendor/samsung/espressowifi/proprietary/media/battery_charging_100.qmg:system/media/battery_charging_100.qmg \
+    vendor/samsung/espressowifi/proprietary/media/battery_error.qmg:system/media/battery_error.qmg \
+    vendor/samsung/espressowifi/proprietary/media/bootsamsung.qmg:system/media/bootsamsung.qmg \
+    vendor/samsung/espressowifi/proprietary/media/bootsamsungloop.qmg:system/media/bootsamsungloop.qmg \
+    vendor/samsung/espressowifi/proprietary/media/chargingwarning.qmg:system/media/chargingwarning.qmg \
+    vendor/samsung/espressowifi/proprietary/media/Disconnected.qmg:system/media/Disconnected.qmg \
     vendor/samsung/espressowifi/proprietary/vendor/bin/pvrsrvinit:system/vendor/bin/pvrsrvinit \
     vendor/samsung/espressowifi/proprietary/vendor/lib/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
     vendor/samsung/espressowifi/proprietary/vendor/lib/libIMGegl.so:system/vendor/lib/libIMGegl.so \
